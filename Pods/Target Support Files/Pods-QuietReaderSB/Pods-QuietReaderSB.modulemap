@@ -1,0 +1,6 @@
+framework module Pods_QuietReaderSB {
+  umbrella header "Pods-QuietReaderSB-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -71,9 +71,9 @@ extension MainViewController: NSCollectionViewDelegate, NSCollectionViewDataSour
         print(indexPaths)
 //        collectionView.deselectItems(at: indexPaths)
     }
-    // MARK CollectView DataSource
+    // MARK: CollectView DataSource
     func numberOfSections(in collectionView: NSCollectionView) -> Int {
-        return 1
+        return 2
     }
     func collectionView(_ collectionView: NSCollectionView, numberOfItemsInSection section: Int) -> Int {
         return 30
